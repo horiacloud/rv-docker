@@ -49,9 +49,9 @@ def hello_name(name_get):
           #print s
           a = ''
           if s==5:
-             a="Hello %s! your birthday is in %s days!!!!!!!!!"  %(nume2['name'], s)
+             a="Hello %s! your birthday is in %s days!"  %(nume2['name'], s)
           elif s==0:
-             a="Hello %s! Happy birthday!!!!!!!!!!" %nume2['name']
+             a="Hello %s! Happy birthday!" %nume2['name']
           return jsonify({'message': a}), 200
     
 def search(name, people):
