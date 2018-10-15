@@ -9,8 +9,7 @@ sudo pip install flask
 
 
 ------------------------------------------------
-BUILD Docker image:
-$ docker build -t rv .
+$ docker pull horiacloud/rv-docker
 
 
 RUN docker image:
