@@ -14,4 +14,4 @@ $ docker build -t rv .
 
 
 RUN docker image:
-$ docker run -it --name python-rv rv
+$ docker run -it --name rv horiacloud/rv-docker
