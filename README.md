@@ -13,4 +13,4 @@ $ docker pull horiacloud/rv-docker
 
 
 RUN docker image:
-$ docker run -it --name rv horiacloud/rv-docker
+$ docker run -it --rm --name rv horiacloud/rv-docker
