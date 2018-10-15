@@ -14,4 +14,4 @@ $ docker build -t my-python-app .
 
 
 RUN docker image:
-$ docker run -it --rm --name my-running-app my-python-app
+$ docker run -it --name my-running-app my-python-app
