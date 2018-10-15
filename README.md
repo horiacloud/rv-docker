@@ -10,8 +10,8 @@ sudo pip install flask
 
 ------------------------------------------------
 BUILD Docker image:
-$ docker build -t my-python-app .
+$ docker build -t rv .
 
 
 RUN docker image:
-$ docker run -it --name my-running-app my-python-app
+$ docker run -it --name python-rv rv
