@@ -7,7 +7,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY rv.py .
 
-EXPOSE 80:80
-
 CMD [ "python2", "./rv.py" ]
 
