@@ -23,7 +23,7 @@ def hello_name(name_get):
     nume = search(name_get,tasks)
     req_data = request.get_json(force=True)
     result = req_data['message']
-    print result
+    #print result
     try:
             datetime.strptime(result, '%Y-%m-%d')
     except ValueError:
@@ -46,7 +46,7 @@ def hello_name(name_get):
     for nume2 in tasks:
         if nume2['name'] == name_get:
           s = days_until(nume2['birthday'])
-          print s
+          #print s
           a = ''
           if s==5:
              a="Hello %s! your birthday is in %s days"  %(nume2['name'], s)
